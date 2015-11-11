@@ -7,7 +7,7 @@ package fahrenheit;
 
 /**
  * AP Computer Science
- * @author Mr. Tholking
+ * @author Spencer Cheng
  */
 public class Fahrenheit {
 
@@ -16,6 +16,8 @@ public class Fahrenheit {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        FahrenheitGUI converter = new FahrenheitGUI();
+        converter.display();
     }
     
 }
